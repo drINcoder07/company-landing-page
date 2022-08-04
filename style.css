@@ -80,9 +80,24 @@ img {
 }
 
 .container {
-  height: 768px;
+  /* height: 768px; */
+  height: 600px;
+  overflow: hidden;
   /* display: flex;
   flex-direction: column; */
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.container2 {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-start;
+
 }
 
 /* HEADER SECTION */
