@@ -17,6 +17,7 @@ img {
   width: 100vw;
   height: 768px;
   z-index: -1;
+  filter: brightness(50%);
 }
 
 /* STYLES */
@@ -37,7 +38,7 @@ img {
 }
 
 .bold {
- font-weight: 700;
+ font-weight: 900;
 }
 
 .extrabold {
@@ -70,6 +71,8 @@ img {
 
 .support {
   font-family: 'Overpass', sans-serif;
+  max-width: 550px;
+  padding-left: 8px;
 }
 
 .mono {
@@ -86,15 +89,16 @@ img {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 30px 50px 0;
+  padding: 30px 50px 0 100px;
 }
+
 
 .nav ul {
   display: flex;
   gap: 18px;
   list-style: none;
   color: #fff;
-
+  /* margin-left: 40px; */
 }
 
 .nav ul li {
@@ -104,6 +108,10 @@ img {
   background-color: #3C896D;
   text-transform: uppercase;
   font-size: 16px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* HERO SECTION */
@@ -121,4 +129,48 @@ img {
   margin-left: 13px;
   border-radius: 20px;
   vertical-align: bottom;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #3C896D;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 70px ;
+  height: 256px;
+  width: 100vw;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.info {
+  margin-bottom: 30px;
+}
+
+.line {
+  border: 1px solid #BFD8BD;
+}
+
+.subscription form input {
+  background-color: #6B9080;
+  border: none;
+  height: 38px;
+  width: 318px;
+  color: #fff;
+}
+
+.subscription form button {
+  color: #50FFB1;
+  background-color: #000;
+  border: none;
+  padding: 8px 6px;
+  margin-left: -4px;
+}
+
+::placeholder {
+  color: #BFD8BD;
+  opacity: 1;
+  padding-left: 7px;
 }
