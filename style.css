@@ -184,7 +184,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 30px 70px ;
-  height: 256px;
+  /* height: 256px; */
   width: 100vw;
 }
 
@@ -258,7 +258,7 @@ p {
 
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:776px) {
   .mobile-only {
     display: block;
   }
@@ -286,8 +286,17 @@ p {
     margin: auto;
   }
 
-  .info-terms, .line {
+  .info-terms {
     display: none;
   }
 
+}
+
+@media screen and (max-width: 640px) {
+  .container1 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  
 }
