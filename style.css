@@ -311,7 +311,7 @@ p {
 
 @media screen and (max-width: 640px) {
   .container {
-    min-height: 600px;
+    min-height: 700px;
   }
 
   .container1 {
@@ -332,5 +332,21 @@ p {
     gap: 70px;
   }
 
+  
+}
+
+@media screen and (max-width: 470px) {
+
+  .container2 {
+    /* display: block; */
+  }
+
+  .subscription form {
+    padding-left: 0;
+  }
+
+  .info-social {
+    margin-bottom: 20px;
+  }
   
 }
