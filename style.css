@@ -337,10 +337,6 @@ p {
 
 @media screen and (max-width: 470px) {
 
-  .container2 {
-    /* display: block; */
-  }
-
   .subscription form {
     padding-left: 0;
   }
