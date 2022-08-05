@@ -79,6 +79,10 @@ img {
   font-family: 'Overpass Mono', monospace;
 }
 
+.extrabold .mono {
+  font-weight: bolder;
+}
+
 .container {
   /* height: 768px; */
   height: 600px;
@@ -215,6 +219,34 @@ p {
     font-size: 14px;
   }
   
+  .nav ul li {
+    width: 130px;
+  }
+
+  .larger {
+    font-size: 50px;
+  }
+
+  .large {
+    font-size: 20px;
+  }
+  
+  .container1 {
+    padding-left: 70px;
+  }
+
+  .info-name {
+    margin-right: 10px;
+  }
+
+  /* .subscription form button {
+    margin: 2px 0 0 1px;
+  } */
+
+  .subscription form input {
+    width: 150px;
+  }
+
 }
 
 @media screen and (max-width:640px) {
