@@ -129,6 +129,20 @@ a {
   text-decoration: none;
 }
 
+.menubar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: none;
+}
+
+.bar {
+  border-bottom: 2px solid #3C896D;
+  width: 30px;
+  margin-top: 4px;
+}
+
 /* HERO SECTION */
 .hero {
   position: relative;
