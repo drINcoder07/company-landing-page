@@ -8,7 +8,7 @@
   font: inherit;
 }
 body {
-  height: 100vh;
+  /* height: 100vh; */
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -200,6 +200,10 @@ p {
   border: 1px solid #BFD8BD;
 }
 
+/* .line1 {
+  display: none;
+} */
+
 .subscription form input {
   background-color: #6B9080;
   border: none;
@@ -253,7 +257,7 @@ p {
   } */
 
   .subscription form input {
-    width: 150px;
+    max-width: 150px;
   }
 
 }
@@ -337,12 +341,48 @@ p {
 
 @media screen and (max-width: 470px) {
 
+  .hero {
+    margin-top: 80px;
+  }
+
   .subscription form {
     padding-left: 0;
   }
 
   .info-social {
     margin-bottom: 20px;
+  }
+  
+}
+
+@media screen and (max-width: 371px) {
+
+
+  .hero  button {
+    font-size: 1.2rem;
+    margin-left: 0;
+    padding: 13px 25px 10px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+
+  /* .hero {
+    margin-top: 75px;
+  } */
+
+  .subscription form input {
+    max-width: 220px;
+  }
+
+  .subscription form button {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+
+  .subscription form {
+    text-align: center;
+    margin-bottom: 10px;
   }
   
 }
